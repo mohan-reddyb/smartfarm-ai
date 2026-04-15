@@ -3,7 +3,7 @@
 AI-powered farming decision platform that helps users make smarter crop and resource decisions.
 
 ## 🌐 Live Demo
-https://your-vercel-link.vercel.app
+https://smartfarm-ai-orpin.vercel.app/
 
 ## 🚀 Features
 - Clean landing page UI
