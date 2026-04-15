@@ -1,0 +1,95 @@
+{
+  "name": "FarmProfile",
+  "type": "object",
+  "properties": {
+    "farm_name": {
+      "type": "string",
+      "title": "Farm Name"
+    },
+    "latitude": {
+      "type": "number",
+      "title": "Latitude"
+    },
+    "longitude": {
+      "type": "number",
+      "title": "Longitude"
+    },
+    "location_name": {
+      "type": "string",
+      "title": "Location Name"
+    },
+    "farm_size": {
+      "type": "number",
+      "title": "Farm Size"
+    },
+    "farm_size_unit": {
+      "type": "string",
+      "enum": [
+        "acres",
+        "hectares"
+      ],
+      "title": "Size Unit"
+    },
+    "soil_type": {
+      "type": "string",
+      "title": "Soil Type"
+    },
+    "water_availability": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "title": "Water Availability"
+    },
+    "weekly_hours": {
+      "type": "number",
+      "title": "Weekly Hours"
+    },
+    "budget_min": {
+      "type": "number",
+      "title": "Budget Min"
+    },
+    "budget_max": {
+      "type": "number",
+      "title": "Budget Max"
+    },
+    "currency": {
+      "type": "string",
+      "title": "Currency"
+    },
+    "risk_level": {
+      "type": "string",
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "title": "Risk Level"
+    },
+    "experience": {
+      "type": "string",
+      "enum": [
+        "beginner",
+        "intermediate",
+        "advanced"
+      ],
+      "title": "Experience"
+    },
+    "recommendations": {
+      "type": "string",
+      "title": "AI Recommendations JSON"
+    },
+    "last_analysis_date": {
+      "type": "string",
+      "title": "Last Analysis Date"
+    }
+  },
+  "required": [
+    "latitude",
+    "longitude",
+    "farm_size",
+    "water_availability"
+  ]
+}
